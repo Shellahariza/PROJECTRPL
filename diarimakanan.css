@@ -15,6 +15,9 @@ main{
       font-weight: 800;
       text-align: center;
     }
+    .beranda {
+      font-weight: normal;
+    }
   .kotakkiri{
     margin-right: 49px;
   }
