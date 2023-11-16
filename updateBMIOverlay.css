@@ -88,8 +88,9 @@ input:focus{
     
 }
 .button button{
-    background-color: #77AD59;
-    color: #F1F5DC;
+
+    background-color: #C30000;
+    color: #fff;
     border: none;
     border-radius: 20px;
     font-weight: 500;
@@ -105,4 +106,8 @@ input:focus{
 }
 .inputan1 p, .inputan2 p{
     padding-left: 33px;
+}
+.button button:hover{
+    background-color: #77AD59;
+
 }
