@@ -24,12 +24,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($result->num_rows > 0) {
         // Login berhasil
+        session_start(); // Mulai session
+        $row = $result->fetch_assoc();
+        $_SESSION['user_id'] = $row['id']; // Simpan user_id ke dalam session
         $_SESSION['username'] = $username; // Simpan username ke dalam session
         echo '<script>alert("Login berhasil"); window.location.href = "index2.php";</script>';
-
     } else {
         // Login gagal
-        echo json_encode(["success" => false]);
+        echo '<script>alert("Username atau password salah"); window.location.href = "login.html";</script>';
     }
 }
 

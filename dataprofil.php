@@ -22,10 +22,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $berat_badan = $_POST["berat_badan"];
     $tinggi_badan = $_POST["tinggi_badan"];
+    $user_id = $_SESSION['user_id']; 
 
     // Melakukan query untuk memasukkan data ke dalam tabel
-    $query = "INSERT INTO tb_datauser (nama_lengkap, tanggal_lahir, jenis_kelamin, nomor_telepon, email, berat_badan, tinggi_badan)
-              VALUES ('$nama_lengkap', '$tanggal_lahir', '$jenis_kelamin', '$nomor_telepon', '$email', '$berat_badan', '$tinggi_badan')";
+    $query = "INSERT INTO tb_datauser (user_id, nama_lengkap, tanggal_lahir, jenis_kelamin, nomor_telepon, email, berat_badan, tinggi_badan)
+    VALUES ('$user_id', '$nama_lengkap', '$tanggal_lahir', '$jenis_kelamin', '$nomor_telepon', '$email', '$berat_badan', '$tinggi_badan')";
 
     if ($conn->query($query) === TRUE) {
         echo '<script>alert("Data berhasil disimpan"); window.location.href = "index2.php";</script>';

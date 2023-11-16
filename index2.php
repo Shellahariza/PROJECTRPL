@@ -42,7 +42,7 @@ if (!isset($_SESSION['username'])) {
           </div>
         </div>
         </div>
-        <a href="profil.html" class="login"><?php echo $_SESSION['username']; ?></a>
+        <a href="profil.php" class="login"><?php echo $_SESSION['username']; ?></a>
       </div>
     </nav>  
   </header>
