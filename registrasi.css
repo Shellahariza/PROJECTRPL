@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Lao Muang Don-Regular", Helvetica;
+    font-weight: 400;
+}
+
+.kotakbesar{
+    background-color: #F1F5DC;
+    padding: 29px 47px 76px 47px;
+    border-radius: 10px;
+    width: 594px;
+}
+
+.inputan1, .inputan2{
+    display: flex;
+    border-radius: 20px;
+    background-color: #C9DF8C;
+    align-items: center;
+}
+
+.inputan1{
+    margin-bottom: 33px;
+    margin-top: 33px;
+}
+
+.inputan2{
+    margin-bottom: 11px;
+}
+
+.icon-user-wrapper{
+    background-image: url(img/SetengahLingkaran.png);
+    background-size: 100% 100%;
+    padding: 13px 17px;
+    width: 73px;
+    display: flex;
+    justify-content: center;
+}
+
+.form input{
+    border: 0;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 15px 27px 15px 27px;
+    font-size: 25px;
+    color: #254E24;
+}
+
+input:focus{
+    outline: none;
+}
+
+.form input::placeholder {
+    color: #254E24; 
+    opacity: 50%;
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 1000;
+    color: #254E24;
+}
+/* Add this style for the Register button */
+.form input[type="submit"] {
+    text-decoration: none;
+    background-color: #77AD59;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    stroke: 1px #FFFFFF;
+    cursor: pointer;
+}
+
+/* Add hover effect */
+.form input[type="submit"]:hover {
+    background-color: #254E24;
+}
