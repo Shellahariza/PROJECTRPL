@@ -4,8 +4,10 @@
   box-sizing: border-box;
 }
 body {
+  background-image: url(img/DocterBackNoUser.png);
   background-repeat: no-repeat;
   background-position: right bottom;
+  /* overflow-y: hidden; */
 }
 main {
   margin-left: 57px;
@@ -19,7 +21,7 @@ main {
   flex-direction: column;
   width: 659px;
   height: 78px;
-  margin: 178px 567px 423px 54px;
+  margin: 100px 567px 423px 54px;
 }
 .sobatdietmu-judul {
   font-family: "Lalezar-Regular", Helvetica;
@@ -30,18 +32,7 @@ main {
   color: #424242;
   margin-bottom: 38px;
 }
-.sobatdietmu-image{
-  display: flex;
-  position: relative;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-.img-sobatdietmu{
-  position: absolute;
-  z-index: -1;
-  right: -1px;
-  top: 117px;
-}
+
 .sobatdietmu p {
   font-family: "Lao Muang Don-Regular", Helvetica;
   color: #424242;
