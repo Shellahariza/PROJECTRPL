@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  background-image: url(img/DocterBackWithUser.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
