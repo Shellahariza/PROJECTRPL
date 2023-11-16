@@ -18,10 +18,7 @@ nav {
   .brand{
     font-weight: 1000;
   }
-  .beranda {
-    font-weight: 800;
-    text-align: center;
-  }
+
   .menu {
     display: flex;
     align-items: center;

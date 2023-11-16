@@ -10,6 +10,10 @@ body {
 main {
   margin-left: 57px;
 }
+.beranda {
+  font-weight: 800;
+  text-align: center;
+}
 .sobatdietmu {
   display: flex;
   flex-direction: column;

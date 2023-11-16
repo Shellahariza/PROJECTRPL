@@ -11,6 +11,9 @@ main{
     display: flex;
     justify-content: center;
   }
+  .diari{
+    font-weight: 1000;
+  }
   .kotakkiri{
     margin-right: 49px;
   }
