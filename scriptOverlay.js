@@ -23,7 +23,7 @@ function openOverlayProfil() {
               '<section>' +
                   '<div class="container-profil">' +
                       '<div class="container-kelola-logo-nama">' +
-                          '<div class="kelola">' +
+                          '<div class="kelola" onclick="UbahProfil()">' +
                               '<p>Kelola</p>' +
                           '</div>' +
                           '<div class="profil-lingkaran-nama">' +
@@ -146,4 +146,7 @@ function openOverlayProfil() {
     var overlay = document.getElementById("BMIOverlay");
     overlay.parentNode.removeChild(overlay);
   }
-  
+  function UbahProfil() {
+     //ubah profil ke profil.html
+      window.location.href = "profil.php";
+  }
