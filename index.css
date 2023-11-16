@@ -8,6 +8,7 @@ body {
   background-repeat: no-repeat;
   background-position: right bottom;
   /* overflow-y: hidden; */
+  display: absolute;
 }
 main {
   margin-left: 57px;
