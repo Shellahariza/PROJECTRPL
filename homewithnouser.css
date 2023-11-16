@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(img/DocterBackWithUser.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+main {
+  margin-left: 57px;
+}
+.sobatdietmu {
+  display: flex;
+  flex-direction: column;
+  width: 659px;
+  height: 78px;
+  margin: 178px 567px 423px 54px;
+}
+.sobatdietmu-judul {
+  font-family: "Lalezar-Regular", Helvetica;
+  font-size: 70px;
+  font-weight: 1000;
+  line-height: normal;
+  white-space: nowrap;
+  color: #424242;
+  margin-bottom: 38px;
+}
+.sobatdietmu-image{
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.img-sobatdietmu{
+  position: absolute;
+  z-index: -1;
+  right: -1px;
+  top: 117px;
+}
+.sobatdietmu p {
+  font-family: "Lao Muang Don-Regular", Helvetica;
+  color: #424242;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
