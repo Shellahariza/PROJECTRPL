@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="updateBMIOverlay.css">
+    <title>Form Overlay</title>
+</head>
+<body>
+<div class="overlay">
+    <img src="Gelombang.png">
+    <p>Berat Badan Terbaru</p>
+    <div class="container" id="berat-container">
+        <input type="text" id="berat" name="berat">
+    </div>
+    <p>Tinggi Badan Terbaru</p>
+    <div class="container" id="tinggi-container">
+        <input type="text" id="tinggi" name="tinggi">
+    </div>
+    <button onclick="submitForm()">OK</button>
+</div>
+
+<script>
+    function submitForm() {
+        var berat = document.getElementById("berat").value;
+        var tinggi = document.getElementById("tinggi").value;
+        console.log("Berat Badan: " + berat + " kg");
+        console.log("Tinggi Badan: " + tinggi + " cm");
+    }
+</script>
+
+</body>
+</html>
