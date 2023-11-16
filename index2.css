@@ -1,0 +1,100 @@
+body{
+  background-image:url(img/DocterBackWithUser.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+main{
+  margin-left: 64px;
+  margin-right: 57px;
+}
+.beranda {
+  font-weight: 800;
+  text-align: center;
+}
+.sec1{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: left;
+  margin-top: 90px;
+  margin-bottom: 54px;
+}
+.sobatdietmu{
+  width: 600px;
+  margin-left: 79px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* position: absolute;
+  width: 650px;
+  height: 156px;
+  top: 150px;
+  left: 521px; */
+}
+.sobatdietmu-judul {
+  font-family: "Lalezar-Regular", Helvetica;
+  font-size: 70px;
+  font-weight: 1000;
+  white-space: nowrap;
+  color: #414141;
+  margin-bottom: 38px;
+}
+.sobatdietmu p{
+  font-family: "Lao Muang Don-Regular", Helvetica;
+  color: #414141;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.totalkalori{
+  width: 378px;
+  height: 299px;
+  background-color: #254E24;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  border-radius: 15px; 
+  align-items: center;
+  text-align: center;
+  color: #ffff;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Lao Muang Don-Regular", Helvetica;
+  box-shadow: 3px 5px 6px 3px #00000040;
+}
+.totalkalori .isi{
+  margin-top: 30px;
+  font-size: 40px;
+  background-color: #c30000;
+  padding: 21px 50px;
+  border-radius: 30px;
+}
+
+.sec2{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: left;
+}
+.sec2-child{
+  width: 200px;
+  height: 170px;
+  background-color: #254E24;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  border-radius: 15px; 
+  align-items: center;
+  text-align: center;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Lao Muang Don-Regular", Helvetica;
+  margin: 0px 120px 0px 0px;
+  box-shadow: 3px 5px 6px 3px #00000040;
+}
+.sec2-child .isi{
+  font-size: 36px;
+}
+
+
