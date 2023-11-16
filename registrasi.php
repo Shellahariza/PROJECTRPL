@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($conn->query($insertQuery) === TRUE) {
             // Registrasi berhasil
-            echo '<script>alert("Registrasi berhasil"); window.location.href = "homewithnouser.html";</script>';
+            echo '<script>alert("Registrasi berhasil"); window.location.href = "index.html";</script>';
         } else {
             echo "Error: " . $insertQuery . "<br>" . $conn->error;
         }

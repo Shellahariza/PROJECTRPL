@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Handle login button click
     loginButton.addEventListener("click", function () {
         // Navigate to the desired page (replace 'targetPage.html' with your actual page name)
-        window.location.href = 'index2.html';
+        window.location.href = 'index2.php';
       });
     });
   
