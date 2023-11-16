@@ -1,0 +1,69 @@
+.overlay {
+    width: 594px;
+    height: 419px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F1F5DC;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#berat-container{
+    width: 142px;
+    height: 64px;
+    flex-shrink: 0;
+    border: 1px solid #254E24;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+#tinggi-container{
+    width: 142px;
+    height: 64px;
+    flex-shrink: 0;
+    border: 1px solid #254E24;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 20px; 
+
+}
+input {
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 106px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #77AD59;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5F8E47;
+}
+img {
+    margin-top: 216px; 
+}
