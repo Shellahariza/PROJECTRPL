@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 // Koneksi ke database
 $host = "localhost";
 $username = "root";
@@ -22,12 +24,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($result->num_rows > 0) {
         // Login berhasil
-        session_start(); // Mulai session
         $_SESSION['username'] = $username; // Simpan username ke dalam session
-        echo '<script>alert("Login berhasil"); window.location.href = "index.php";</script>';
+        echo '<script>alert("Login berhasil"); window.location.href = "index2.php";</script>';
+
     } else {
         // Login gagal
-        echo '<script>alert("Username atau password salah"); window.location.href = "login.html";</script>';
+        echo json_encode(["success" => false]);
     }
 }
 
