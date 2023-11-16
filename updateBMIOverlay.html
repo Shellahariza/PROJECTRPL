@@ -7,27 +7,41 @@
     <title>Form Overlay</title>
 </head>
 <body>
-<div class="overlay">
-    <img src="Gelombang.png">
-    <p>Berat Badan Terbaru</p>
-    <div class="container" id="berat-container">
-        <input type="text" id="berat" name="berat">
-    </div>
-    <p>Tinggi Badan Terbaru</p>
-    <div class="container" id="tinggi-container">
-        <input type="text" id="tinggi" name="tinggi">
-    </div>
-    <button onclick="submitForm()">OK</button>
-</div>
+    <div class="overlay">
+        <div class="kotakbesar">
+          <div class="silang">
+            <img src="img/LogoSilang.png" alt="">
+          </div>
+            <div class="form">
+              <form action="" method="post">
+                    <div class="inputan1">
+                        <label for="">Berat Badan Terbaru</label>
+                        <div>
+                          <input type="text" name="bb" placeholder="70" required>
+                          <p>Kg</p>
+                        </div>
+                    </div>           
+                    <div class="inputan2">
+                        <label for="">Tinggi Badan Terbaru</label>
+                        <div>
+                          <input type="text" name="tb" placeholder="180" required>
+                          <p>Cm</p>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button type="button">Oke</button>
+                    </div>
+                </form>  
+          </div>
+        </div>
+</body>
+</html>
 
-<script>
+<!-- <script>
     function submitForm() {
         var berat = document.getElementById("berat").value;
         var tinggi = document.getElementById("tinggi").value;
         console.log("Berat Badan: " + berat + " kg");
         console.log("Tinggi Badan: " + tinggi + " cm");
     }
-</script>
-
-</body>
-</html>
+</script> -->

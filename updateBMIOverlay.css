@@ -1,70 +1,108 @@
-.overlay {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    font-family: "Lao Muang Don-Regular", Helvetica;
+    font-weight: 400;
+    /* background-color: transparent; 
+} */ 
+/* .overlay{
+display: none;
+} */
+.overlay{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.kotakbesar{
+    align-items: center;    
+    font-family: "Lao Muang Don-Regular", Helvetica;
+    color: #254E24;
+    background-color: #F1F5DC;
+    padding: 30px 27px 76px 47px;
+    border-radius: 10px;
     width: 594px;
     height: 419px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #F1F5DC;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: 25px;
+    background-image: url(img/Gelombang.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
-#berat-container{
-    width: 142px;
-    height: 64px;
-    flex-shrink: 0;
-    border: 1px solid #254E24;
-    box-sizing: border-box;
+.silang{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 8px;
-    margin-bottom: 20px;
-}
-#tinggi-container{
-    width: 142px;
-    height: 64px;
-    flex-shrink: 0;
-    border: 1px solid #254E24;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 8px;
-    margin-bottom: 20px; 
+    justify-content: right;
 
 }
-input {
-    margin: 8px 0;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-    box-sizing: border-box;
-}
-button {
-    margin-top: 15px;
-    padding: 10px;
-    width: 106px;
-    height: 46px;
-    flex-shrink: 0;
-    border-radius: 20px;
-    background-color: #77AD59;
-    color: white;
-    border: none;
+.silang img{
     cursor: pointer;
 }
+.inputan1, .inputan2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.inputan1{
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+.inputan2{
+    margin-bottom: 48px;
+}
+.inputan1 label, .inputan2 label{
+    margin-bottom: 5px;
+}
 
-button:hover {
-    background-color: #5F8E47;
+.form input{
+    border: 1px solid #254E24;
+    text-decoration: none;
+    background-color:transparent;
+    padding: 19px 23px;
+    font-size: 25px;
+    color: #254E24;
+    width: 142px;
+}   
+input:focus{
+    outline: none;
 }
-img {
-    margin-top: 216px; 
+.form input::placeholder {
+    color: #254E24; 
+    opacity: 50%;
+    font-size: 20px;
 }
-/*img ini aman yg kotak" itu kebawah bjir
+.button {
+    display: flex;
+    justify-content: right;
+    margin-right: 90px;
+    
+}
+.button button{
+    background-color: #77AD59;
+    color: #F1F5DC;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+    width: 106px;
+    height: 46px;
+}
+.inputan1 div, .inputan2 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.inputan1 p, .inputan2 p{
+    padding-left: 33px;
+}
