@@ -7,16 +7,12 @@
 body {
   background-color: black;
 }
-
-/* .container-all {
-  height: 757px;
+.layar {
+  background-color: #38803e;
   width: 436px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 832px;
   margin: 0 auto;
-} */
-
+}
 .container-nav {
   width: 436px;
   height: 75px;
@@ -49,18 +45,17 @@ body {
   margin: 28px auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   border-radius: 10px;
 }
 .container-kelola-logo-nama {
   display: flex;
   flex-direction: column;
-  height: 60px;
-  width: 285px;
-  justify-content: left;
+  width: 396px;
+  justify-content: center;
   align-items: left;
-  margin: 22px 88px 44px 23px;
+  padding: 22px 22px 44px 22px;
 }
 .kelola {
   display: flex;
@@ -68,8 +63,7 @@ body {
   color: #c30000;
   font-size: 18px;
   font-weight: 600;
-  letter-spacing: 0.9px;
-  margin: 14px 13px 0 326px;
+  /* letter-spacing: 0.9px; */
 }
 
 .profil-lingkaran-nama {
@@ -78,7 +72,117 @@ body {
 .profil-circle {
   width: 60px;
   height: 60px;
+  margin-right: 15px;
 }
-.container-umur-bb-tb{
+.nama {
+  color: #254e24;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+.nomor {
+  color: #254e24;
+  font-size: 18px;
+  font-weight: 400;
+}
+.container-umur-bb-tb {
   display: flex;
+  gap: 56px;
+  padding: 23.5px 22px;
+  border-radius: 10px;
+  background: #d2d2d2;
+  width: 396px;
+  height: 96px;
+  justify-content: center;
+}
+.h1-umur {
+  color: #254e24;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 13px;
+}
+.container-bmi {
+  height: 222px;
+  width: 396px;
+  background-color: #fff;
+  margin: 37px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.container-kelola-logo-bmi {
+  display: flex;
+  flex-direction: column;
+}
+.kelola-bmi {
+  display: flex;
+  justify-content: right;
+  color: #c30000;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 19px 15px 0 326px;
+}
+.weight-scale {
+  width: 54.45px;
+  height: 55px;
+  margin-right: 20.55px;
+}
+.bmi {
+  color: #254e24;
+  font-size: 25px;
+  font-weight: 550;
+}
+.logo-timbangan-nama {
+  display: flex;
+  width: 396px;
+  padding: 18px 241px 0 23px;
+}
+.indeks-keterangan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.indeks {
+  color: #254e24;
+  font-size: 40px;
+  font-weight: 600;
+}
+.keterangan {
+  color: #254e24;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.bb-sekarang-target {
+  display: flex;
+  padding: 3px 32px 28px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 188px;
+}
+.bb-angka {
+  color: #254e24;
+  font-size: 20px;
+  font-weight: 450;
+}
+.bb-doang {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bb-target {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bb-skrg-trgt {
+  color: #254e24;
+  font-size: 20px;
+  font-weight: 700;
+  /* letter-spacing: 1px; */
 }
