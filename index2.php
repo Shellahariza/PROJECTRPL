@@ -4,7 +4,7 @@ session_start();
 // Periksa apakah session username sudah ada
 if (!isset($_SESSION['username'])) {
     // Jika tidak ada, arahkan ke halaman home tanpa user
-    header("Location: homewithnouser.html");
+    header("Location: index.html");
     exit();
 }
 ?>
