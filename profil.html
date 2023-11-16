@@ -1,31 +1,29 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DIETBUDDY</title>
-    <link href="
-    https://cdn.jsdelivr.net/npm/css-reset-and-normalize@2.3.6/css/reset-and-normalize.min.css
-    " rel="stylesheet"
-    > 
+    <link href="https://cdn.jsdelivr.net/npm/css-reset-and-normalize@2.3.6/css/reset-and-normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="profil.css">
     <link rel="stylesheet" href="navigasi.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="container">
-        <div class="menu">
-          <a href="index.html" class="brand">DIETBUDDY</a>
-        </div>
-        <div class="login">LOGIN</div>
-      </div>
-    </nav>  
-  </header>
-  <main>
-    <div class="Isi">
-      <div class="Isi-Judul">PROFIL</div>
-      <div class="Form">
-        <form action="dataprofil.php" method="post">
+    <header>
+        <nav>
+            <div class="container">
+                <div class="menu">
+                    <a href="index.html" class="brand">DIETBUDDY</a>
+                </div>
+                <div class="login">LOGIN</div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="Isi">
+            <div class="Isi-Judul">PROFIL</div>
+            <div class="Form">
+              <form action="dataprofil.php" method="post" id="profilForm" enctype="multipart/form-data">
           <div class="InformasiUmum">
             <div class="Informasi-Judul">
               <div>Informasi Umum</div>
@@ -34,7 +32,7 @@
               <div class="Form-isi-judul">
                 <label for="">Nama Lengkap</label>
                 <div class="Form-isi-isi">
-                  <input type="text" id="" name="" placeholder="Masukkan Nama Lengkap..">
+                  <input type="text" id="nama_lengkap" name="nama_lengkap" placeholder="Masukkan Nama Lengkap..">
                 </div>
               </div>
               <div class="Form-isi-judul">
@@ -97,15 +95,13 @@
             </div>
           </div>
           <div class="Button">
-            <input type="button" value="Simpan Perubahan">
-          </div>
-        </form>
-      </div>
-    </div>
-    </main>
-    <footer>
-    </footer>
-  </body>
+            <input type="submit" value="Simpan Perubahan">
+        </div>
+    </form>
+</div>
+</div>
+</main>
+<footer>
+</footer>
 </body>
 </html>
-  
