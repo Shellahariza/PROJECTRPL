@@ -88,8 +88,7 @@ input:focus{
     
 }
 .button button{
-
-    background-color: #C30000;
+    background-color: #77AD59;
     color: #fff;
     border: none;
     border-radius: 20px;
@@ -108,6 +107,5 @@ input:focus{
     padding-left: 33px;
 }
 .button button:hover{
-    background-color: #77AD59;
-
+    background-color: #C30000;
 }
