@@ -11,10 +11,10 @@
     font-weight: 400;
     /* background-color: transparent; 
 } */ 
-/* .overlay{
+.BMI{
 display: none;
-} */
-.overlay{
+}
+.BMI.active{
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -26,7 +26,7 @@ display: none;
     justify-content: center;
     align-items: center;
 }
-.kotakbesar{
+.overlay-containerBMI .kotakbesar{
     align-items: center;    
     font-family: "Lao Muang Don-Regular", Helvetica;
     color: #254E24;
@@ -40,31 +40,31 @@ display: none;
     background-repeat: no-repeat;
     background-position: right bottom;
 }
-.silang{
+.overlay-containerBMI .BMI-silang{
     display: flex;
     justify-content: right;
 
 }
-.silang img{
+.overlay-containerBMI .BMI-silang img{
     cursor: pointer;
 }
-.inputan1, .inputan2{
+.overlay-containerBMI .inputan1, .overlay-containerBMI .inputan2{
     display: flex;
     flex-direction: column;
     border-radius: 20px;
 }
-.inputan1{
+.overlay-containerBMI .inputan1{
     margin-bottom: 14px;
     margin-top: 14px;
 }
-.inputan2{
+.overlay-containerBMI .inputan2{
     margin-bottom: 48px;
 }
-.inputan1 label, .inputan2 label{
+.overlay-containerBMI .inputan1 label, .overlay-containerBMI .inputan2 label{
     margin-bottom: 5px;
 }
 
-.form input{
+.overlay-containerBMI .form input{
     border: 1px solid #254E24;
     text-decoration: none;
     background-color:transparent;
@@ -73,22 +73,23 @@ display: none;
     color: #254E24;
     width: 142px;
 }   
-input:focus{
+.overlay-containerBMI input:focus{
     outline: none;
 }
-.form input::placeholder {
+.overlay-containerBMI .form input::placeholder {
     color: #254E24; 
     opacity: 50%;
     font-size: 20px;
 }
-.button {
+.overlay-containerBMI .button {
     display: flex;
     justify-content: right;
     margin-right: 90px;
     
 }
-.button button{
-    background-color: #77AD59;
+.overlay-containerBMI .button button{
+
+    background-color: #C30000;
     color: #fff;
     border: none;
     border-radius: 20px;
@@ -98,14 +99,15 @@ input:focus{
     width: 106px;
     height: 46px;
 }
-.inputan1 div, .inputan2 div{
+.overlay-containerBMI .inputan1 div, .overlay-containerBMI .inputan2 div{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.inputan1 p, .inputan2 p{
+.overlay-containerBMI .inputan1 p, .overlay-containerBMI .inputan2 p{
     padding-left: 33px;
 }
-.button button:hover{
-    background-color: #C30000;
+.overlay-containerBMI .button button:hover{
+
+    background-color: #77AD59;
 }

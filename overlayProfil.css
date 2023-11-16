@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .overlay {
     display: none;
   }
@@ -67,6 +73,10 @@
     font-size: 18px;
     font-weight: 600;
     /* letter-spacing: 0.9px; */
+    
+  }
+  .kelola p{
+    cursor: pointer;
   }
   
   .profil-lingkaran-nama {
@@ -126,6 +136,10 @@
     font-size: 18px;
     font-weight: 600;
     padding: 19px 15px 0 326px;
+    
+  }
+  .kelola-bmi p{
+    cursor: pointer;
   }
   .weight-scale {
     width: 54.45px;
