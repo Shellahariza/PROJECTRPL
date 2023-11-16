@@ -97,6 +97,7 @@ input::placeholder{
   border-radius: 0px;
 }
 .Button input:hover{
+  background-color: #254e24;
   color: #ffff;
   cursor: pointer;
 }
