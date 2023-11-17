@@ -7,7 +7,7 @@
     https://cdn.jsdelivr.net/npm/css-reset-and-normalize@2.3.6/css/reset-and-normalize.min.css
     " rel="stylesheet"
     > 
-    <link rel="stylesheet" href="diarimakanan.css">
+    <link rel="stylesheet" href="diarimakananextend.css">
     <link rel="stylesheet" href="navigasi.css">
     <link rel="stylesheet" href="overlayProfil.css">
     <link rel="stylesheet" href="updateBMIOverlay.css">
@@ -35,55 +35,57 @@
       </div>
     </nav>  
   </header>
-   
   <div class="overlay-Profil" id="overlay-Profil"></div>
+
   <main>
    <section class="kotakkiri">
-      <div class="kotakkiri-sisakalori">
-        <div class="sisakalori-isi">...</div>
-        <div class="sisakalori-Judul">Sisa Kalori</div>
-      </div>
-      <div class="kotakkiri-kaloridikonsumsi">
-        <div class="kaloridikonsumsi-isi">...</div>
-        <div class="kaloridikonsumsi-judul">Kalori dikomsumsi</div>
+      <div class="kotakkiri-child">
+            <img src="img/LogoSiang.png" alt="siang" class="icon-pagi">
+            <div class="makan-siang">Makan Siang</div>
       </div>
     </section>
     <section class="kotakkanan">
       <div class="kotakkanan-child">
-        <div>
-          <img src="img/LogoPagi.png" alt="">
-          <div>Sarapan Pagi</div>
+        <img src="img/panah.png" alt="panah" class="panah-atas">
+        <div class="menu-menu">
+            <div class="kotak-menu">
+                <div class="menu-checklist-deskripsi">
+                    <div class="menu-checklist">
+                        <div class="menu">Ayam Bakar</div>
+                        <div class="kotak-checklist"></div>
+                    </div>
+                    <div class="menu-deskripsi">1 Potong AKG 8% - 167 Kkal</div>
+                </div>
+            </div>
+            <div class="kotak-menu">
+                <div class="menu-checklist-deskripsi">
+                    <div class="menu-checklist">
+                        <div class="menu">Nasi Putih</div>
+                        <div class="kotak-checklist"></div>
+                    </div>
+                    <div class="menu-deskripsi">1 Mangkok AKG 12% - 242 Kkal</div>
+                </div>
+            </div>
+            <div class="kotak-menu">
+                <div class="menu-checklist-deskripsi">
+                    <div class="menu-checklist">
+                        <div class="menu">Es Krim (Mixue)</div>
+                        <div class="kotak-checklist"></div>
+                    </div>
+                    <div class="menu-deskripsi">1 Mangkuk AKG 7% - 140 Kkal</div>
+                </div>
+            </div>
+            <div class="kotak-menu">
+                <div class="menu-checklist-deskripsi">
+                    <div class="menu-checklist">
+                        <div class="menu">Bubur Nasi</div>
+                        <div class="kotak-checklist"></div>
+                    </div>
+                    <div class="menu-deskripsi">1 Mangkuk 72 Kkal</div>
+                </div>
+            </div>
         </div>
-        <div class="logoplus-makan-pagi">
-          <img src="img/LogoTambah.png" alt=""  onclick="tambahPagi()">
-        </div>
-      </div>
-      <div class="kotakkanan-child">
-        <div>
-          <img src="img/LogoSiang.png" alt="">
-          <div>Makan Siang</div>
-        </div>
-        <div class="logoplus-makan-siang">
-          <img src="img/LogoTambah.png" alt=""  onclick="tambahSiang()">
-        </div>
-      </div>
-      <div class="kotakkanan-child">
-        <div>
-          <img src="img/LogoMalam.png" alt="">
-          <div>Makan Malam</div>
-        </div>
-        <div class="logoplus-makan-malam">
-          <img src="img/LogoTambah.png" alt=""  onclick="tambahMalam()">
-        </div>
-      </div>
-      <div class="kotakkanan-child"> 
-        <div>
-          <img src="img/LogoCamilan.png" alt="">
-          <div>Camilan</div>
-        </div>
-        <div class="logoplus-makan-camilan">
-          <img src="img/LogoTambah.png" alt=""  onclick="tambahCamilan()">
-        </div>
+        <img src="img/panah bawah.png" alt="panah" class="panah-bawah">
       </div>
     </section>
   </main>
