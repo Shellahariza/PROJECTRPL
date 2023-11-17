@@ -76,3 +76,6 @@ font-size: 70px;
 .logoplus-makan-pagi, .logoplus-makan-siang, .logoplus-makan-malam, .logoplus-makan-camilan {
   cursor: pointer;
 }
+.sisakalori-isi, .sisakalori-judul{
+  color: #254E24;
+}
