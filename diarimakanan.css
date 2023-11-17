@@ -1,0 +1,75 @@
+body{
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  
+}
+.diari {
+  font-weight: 800;
+  text-align: center;
+}
+main{
+  margin-left: 64px;
+  margin-right: 57px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.kotakkiri{
+  margin-right: 49px;
+}
+.kotakkiri, .kotakkanan{
+  width: 589px;
+  height: 600px;
+  box-shadow: 5px 10px 3px 2px #00000040;
+  background: linear-gradient(180deg, rgb(56, 128, 62) 0%, rgb(119, 173, 89) 45.42%, rgb(241, 245, 220) 100%);
+  /* margin: 20px; */
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.kotakkiri-sisakalori, .kotakkiri-kaloridikonsumsi{
+  width: 450px;
+  height: 217px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  
+}
+.kotakkiri-sisakalori{
+  margin-bottom: 75px;
+
+}
+.kotakkanan{
+  justify-content: space-evenly;
+}
+.kotakkanan-child{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+width: 450px;
+height: 60px;
+background-color: white;
+border-radius: 15px;
+}
+.kotakkanan-child div{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+font-size: 25px;
+color: #254E24;
+}
+
+.sisakalori-isi, .kaloridikonsumsi-isi{
+font-size: 70px;
+}
