@@ -34,7 +34,7 @@ main{
 }
 .kotakkiri-sisakalori, .kotakkiri-kaloridikonsumsi{
   width: 450px;
-  height: 137px;
+  height: 125px;
   display: flex;
   flex-direction: column;
   background-color: white;
