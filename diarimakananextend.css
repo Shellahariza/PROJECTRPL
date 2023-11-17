@@ -1,0 +1,112 @@
+body {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.diari {
+  font-weight: 800;
+  text-align: center;
+}
+main {
+  margin-left: 64px;
+  margin-right: 57px;
+  margin-top: 20px;
+  margin-bottom: 77px;
+  display: flex;
+  justify-content: center;
+}
+
+.kotakkiri {
+  margin-right: 49px;
+}
+.kotakkiri,
+.kotakkanan {
+  width: 589px;
+  height: 600px;
+  box-shadow: 5px 10px 3px 2px #00000040;
+  background: linear-gradient(
+    180deg,
+    rgb(56, 128, 62) 0%,
+    rgb(119, 173, 89) 45.42%,
+    rgb(241, 245, 220) 100%
+  );
+  /* margin: 20px; */
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.kotakkiri {
+  justify-content: space-evenly;
+}
+.kotakkiri-child {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+  padding: 15px 20px 20px 46px;
+  width: 450px;
+  height: 60px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 25px;
+  color: #254e24;
+  margin: 66px 69px 510.63px 70px;
+}
+.icon-pagi {
+  width: 31.555px;
+  height: 31.555px;
+}
+.kotakkanan-child {
+  display: flex;
+  flex-direction: column;
+}
+.panah-atas,
+.panah-bawah {
+  width: 14.545px;
+  height: 10px;
+  margin: 16px auto;
+}
+.menu-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.kotak-menu {
+  display: flex;
+}
+.menu-checklist-deskripsi {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 117.203px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 23px 16px 24px 36px;
+}
+.kotak-checklist {
+  width: 27.492px;
+  height: 27.492px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  /* margin: 14px 15px 5px 0; */
+}
+.menu {
+  color: #254e24 !important;
+  font-size: 25px;
+  font-weight: 400;
+}
+.menu-checklist {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.menu-deskripsi {
+  width: 273.473px;
+  height: 14.469px;
+  color: #254e24;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 20px 0 30px 53px;
+}
