@@ -37,7 +37,8 @@ main {
   font-size: 30px;
 }
 .kotakkiri {
-  justify-content: space-evenly;
+  justify-content: normal;
+  padding-top: 66px;
 }
 .kotakkiri-child {
   display: flex;
@@ -50,7 +51,7 @@ main {
   border-radius: 5px;
   font-size: 25px;
   color: #254e24;
-  margin: 66px 69px 510.63px 70px;
+
 }
 .icon-pagi {
   width: 31.555px;
