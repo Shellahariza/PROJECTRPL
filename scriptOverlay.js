@@ -56,7 +56,7 @@ function openOverlayProfil() {
                           '</div>' +
                           '<div class="logo-timbangan-nama">' +
                               '<img src="img/weight-scale.png" alt="weight-scale" class="weight-scale">' +
-                              '<h1 class="bmi">BMI</h1>' +
+                              '<h1 class="bmi-isi">BMI</h1>' +
                           '</div>' +
                           '<div class="indeks-keterangan">' +
                               '<h1 class="indeks">..</h1>' +

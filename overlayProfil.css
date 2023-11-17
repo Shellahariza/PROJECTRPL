@@ -115,7 +115,7 @@
     margin-top: 13px;
   }
   .container-bmi {
-    height: 222px;
+    height: auto;
     width: 396px;
     background-color: #fff;
     margin: 37px auto;
@@ -146,13 +146,14 @@
     height: 55px;
     margin-right: 20.55px;
   }
-  .bmi {
+  .bmi-isi{
     color: #254e24;
     font-size: 25px;
     font-weight: 550;
   }
   .logo-timbangan-nama {
     display: flex;
+    align-items: center;
     width: 396px;
     padding: 18px 241px 0 23px;
   }
