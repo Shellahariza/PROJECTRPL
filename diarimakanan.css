@@ -30,22 +30,76 @@ main{
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  color: #254E24;
 }
 .kotakkiri-sisakalori, .kotakkiri-kaloridikonsumsi{
   width: 450px;
-  height: 217px;
+  height: 137px;
   display: flex;
   flex-direction: column;
   background-color: white;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  
+  margin-bottom: 14px;
 }
-.kotakkiri-sisakalori{
-  margin-bottom: 75px;
+.kotakkiri-riwayatmakanan{
+  width: 450px;
+  height: 262px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 13px 37px 35px 37px;
+}
+.riwayatmakanan-judul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 20px;
+  color: #254E24;
+  font-weight: 700;
+}
+.riwayatmakanan-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.riwayatmakanan-logo div{
+  margin-left: 19px;
+}
+.riwayatmakanan-tanggal{
+  color: #C30000;
+}
+.riwayatmakanan-isi{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  color: #254E24;
+}
+.riwayatmakanan-pagi, .riwayatmakanan-siang, .riwayatmakanan-malam{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #D2D2D2;
+  width: 32%;
+  height: 154px;
+  padding: 10px 23px;
+}
+.riwayatmakanan-pagi-isi-isi, .riwayatmakanan-siang-isi-isi , .riwayatmakanan-malam-isi-isi{
+  height: 30px;
+}
 
-}
 .kotakkanan{
   justify-content: space-evenly;
 }
@@ -75,7 +129,4 @@ font-size: 70px;
 }
 .logoplus-makan-pagi, .logoplus-makan-siang, .logoplus-makan-malam, .logoplus-makan-camilan {
   cursor: pointer;
-}
-.sisakalori-isi, .sisakalori-judul{
-  color: #254E24;
 }
