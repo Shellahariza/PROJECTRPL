@@ -73,3 +73,6 @@ color: #254E24;
 .sisakalori-isi, .kaloridikonsumsi-isi{
 font-size: 70px;
 }
+.logoplus-makan-pagi, .logoplus-makan-siang, .logoplus-makan-malam, .logoplus-makan-camilan {
+  cursor: pointer;
+}

@@ -150,3 +150,19 @@ function openOverlayProfil() {
      //ubah profil ke profil.html
       window.location.href = "profil.php";
   }
+  function tambahPagi() {
+    //ubah profil ke profil.html
+     window.location.href = "diarimakananpagi.html";
+ }
+ function tambahSiang() {
+    //ubah profil ke profil.html
+     window.location.href = "diarimakansiang.html";
+ }
+ function tambahMalam() {
+    //ubah profil ke profil.html
+     window.location.href = "diarimakanmalam.html";
+ }
+ function tambahCamilan() {
+    //ubah profil ke profil.html
+     window.location.href = "diaricamilan.html";
+ }
