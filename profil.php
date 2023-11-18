@@ -24,6 +24,7 @@ if (!isset($_SESSION['username'])) {
         <nav>
             <div class="container">
                 <div class="menu">
+                    <img src="img/timbanganKg.png" alt="">
                     <a href="index.html" class="brand">DIETBUDDY</a>
                 </div>
                 <div class="login">LOGIN <?php echo $_SESSION['username']; ?></div>

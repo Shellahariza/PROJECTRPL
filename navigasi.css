@@ -1,3 +1,8 @@
+header{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
 nav {
   background-color: #254e24;
   padding: 0px 57px 0px 28px;
@@ -27,6 +32,11 @@ nav a {
   /* padding: 13px 127px 11px 28px; */
   font-size: 38px;
   color: #ffffff;
+  gap: 13px;
+}
+.menu img{
+  width: 40px;
+  height: auto;
 }
 
 .menu-tiga-menu {

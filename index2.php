@@ -30,6 +30,7 @@ if (!isset($_SESSION['username'])) {
   <nav>
       <div class="container">
        <div class="menu">
+       <img src="img/timbanganKg.png" alt="">
         <a href="index2.html" class="brand">DIETBUDDY</a>
         
         </div>
