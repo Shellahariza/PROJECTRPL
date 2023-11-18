@@ -8,8 +8,7 @@ main{
   margin-right: 57px;
 }
 .beranda {
-  font-weight: 800;
-  text-align: center;
+  border-bottom: 2px solid #fff;
 }
 .sec1{
   display: flex;

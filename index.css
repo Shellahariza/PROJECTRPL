@@ -14,8 +14,7 @@ main {
   margin-left: 57px;
 }
 .beranda {
-  font-weight: 800;
-  text-align: center;
+  border-bottom: 2px solid #fff;
 }
 .sobatdietmu {
   display: flex;

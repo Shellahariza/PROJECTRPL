@@ -27,25 +27,23 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
   <header>
-    <nav>
+  <nav>
       <div class="container">
        <div class="menu">
-        <a href="#" class="brand">DIETBUDDY</a>
+        <a href="index2.html" class="brand">DIETBUDDY</a>
+        
+        </div>
         <div class="menu-tiga-menu">
           <div class="menu-link">
-            <a href="#" class="beranda">Beranda</a>
-          </div>
-          <div class="menu-link">
-            <a href="artikel.html" class="artikel">Artikel</a>
+            <a href="index2.html" class="beranda">Beranda</a>
           </div>
           <div class="menu-link">
             <a href="diarimakanan.html" class="diari">Diari Makanan</a>
           </div>
         </div>
-        </div>
-        <a href="profil.php" class="login" onclick="openOverlayProfil()"><?php echo $_SESSION['username']; ?></a>
+        <div class="login" onclick="openOverlayProfil()">LOGIN</div>
       </div>
-    </nav>  
+    </nav>
   </header>
   <div class="overlay-Profil" id="overlay-Profil"></div>
   <main>

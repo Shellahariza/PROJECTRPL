@@ -22,21 +22,19 @@ nav a {
 .menu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   font-family: "Lalezar-Regular", Helvetica;
   /* padding: 13px 127px 11px 28px; */
-  font-size: 36px;
+  font-size: 38px;
   color: #ffffff;
 }
 
 .menu-tiga-menu {
   display: flex;  
-  font-size: 20px;
-  padding: 0px 69px;
+  font-size: 25px;
+  gap: 150px;
 }
-.menu-link {
-  padding: 0px 64px;
-}
+
 .login {
   /* margin-left: auto; */
   color: #fff;
@@ -46,4 +44,7 @@ nav a {
   background: #c30000;
   cursor: pointer;
   padding: 11px 24px 12px 24px;
+}
+.menu-link a:hover{
+  border-bottom: 2px solid #fff;
 }
