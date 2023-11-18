@@ -42,38 +42,41 @@ main {
 }
 .kotakkiri-child {
   display: flex;
+  flex-direction: column;
+  height: 600px;
   align-items: center;
-  gap: 37px;
-  padding: 20px 20px 20px 46px;
-  width: 450px;
-  height: 60px;
-  background-color: white;
-  border-radius: 15px;
-  font-size: 25px;
-  color: #254e24;
-
 }
 .icon-pagi {
   width: 31.555px;
   height: 31.555px;
 }
+
 .kotakkanan-child {
   display: flex;
   flex-direction: column;
+  height: 600px;
+  align-items: center;  
 }
 .panah-atas,
 .panah-bawah {
   width: 14.545px;
   height: 10px;
-  margin: 16px auto;
+  margin: 15px 0px;
 }
+
 .menu-menu {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  overflow-y: auto; 
 }
+.menu-menu::-webkit-scrollbar{
+  display: none;  
+}
+
 .kotak-menu {
   display: flex;
+  height: 105px;
 }
 .menu-checklist-deskripsi {
   display: flex;
@@ -83,16 +86,24 @@ main {
   border-radius: 5px;
   border: 1.5px solid #000;
   background-color: #fff;
-  padding: 14px 14px 25px 36px;
+  padding: 18px 15px 18px 36px;
+
 }
 .kotak-checklist {
   width: 27.492px;
   height: 27.492px;
   border-radius: 5px;
   border: 2px solid #000;
+  background-color: #fff;
   /* margin: 14px 15px 5px 0; */
 }
-.menu {
+.menu-checklist-deskripsi.checked{
+  background-color: #C9DF8C;
+}
+.kotak-checklist.checked{
+  background-color: #254e24;
+}
+.menu-judul{
   color: #254e24 !important;
   font-size: 25px;
   font-weight: 400;
@@ -109,4 +120,60 @@ main {
   font-size: 15px;
   font-weight: 400;
   padding: 24px 0 0px 53px;
+}
+.kotak-kiri-item.listed {
+  position: absolute;  
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 450px;
+  z-index: 0;
+  background-color: #E0E0E0;
+  padding: 40px 20px 20px 46px;
+  border-radius: 5px;
+
+}  
+
+.kotak-kiri-judul {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 20px 20px 46px;
+  width: 450px;
+  height: 60px;
+  background-color: white;
+  border-radius: 15px;
+  font-size: 25px;
+  color: #254e24;
+}
+.kotak-kiri-item-listed{
+  font-size: 20px;
+  color: #254E24;
+  padding-top: 20px;
+} 
+.kotak-kiri-item-button{
+  display: none;
+}
+.kotak-kiri-item-button.active{
+  position: relative;
+  font-size: 20px;
+  color: #254E24;
+  display: flex;
+  justify-content: right;
+  padding-top: 20px;
+}
+.kotak-kiri-item-button button:hover{
+  background-color: #254E24;
+}
+.kotak-kiri-item-button button{
+  padding: 12px 36px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  width: 110px;
+  background-color: #C30000;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
 }
