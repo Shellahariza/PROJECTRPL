@@ -88,15 +88,25 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   border-radius: 10px;
   background-color: #D2D2D2;
   width: 32%;
   height: 154px;
   padding: 10px 23px;
 }
+.riwayatmakanan-isi{
+  width: 100%;
+}
 .riwayatmakanan-pagi-isi-isi, .riwayatmakanan-siang-isi-isi , .riwayatmakanan-malam-isi-isi{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 15px;
   height: 30px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+
 }
 
 .kotakkanan{
