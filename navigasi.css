@@ -48,3 +48,7 @@ nav a {
 .menu-link a:hover{
   border-bottom: 2px solid #fff;
 }
+.login:hover{
+  background-color: #fff;
+  color: #254e24;
+}
