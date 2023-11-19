@@ -20,33 +20,10 @@ if (!isset($_SESSION['username'])) {
     " rel="stylesheet"
     > 
     <link rel="stylesheet" href="index2.css">
-    <link rel="stylesheet" href="navigasi.css">
-    <link rel="stylesheet" href="overlayProfil.css">
-    <link rel="stylesheet" href="updateBMIOverlay.css">
     <script src="scriptOverlay.js"></script>
 </head>
 <body>
-  <header>
-  <nav>
-      <div class="container">
-       <div class="menu">
-       <img src="img/timbanganKg.png" alt="">
-        <a href="index2.html" class="brand">DIETBUDDY</a>
-        
-        </div>
-        <div class="menu-tiga-menu">
-          <div class="menu-link">
-            <a href="index2.html" class="beranda">Beranda</a>
-          </div>
-          <div class="menu-link">
-            <a href="diarimakanan.html" class="diari">Diari Makanan</a>
-          </div>
-        </div>
-        <div class="login" onclick="openOverlayProfil()">LOGIN</div>
-      </div>
-    </nav>
-  </header>
-  <div class="overlay-Profil" id="overlay-Profil"></div>
+<script src="navigasi.js"></script>
   <main>
     <section class="sec1">
       
