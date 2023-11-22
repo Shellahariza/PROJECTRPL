@@ -22,5 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
       overlay.classList.remove("active");
     }
   });
-  
+
+
 });
+function klikSilangRegistrasi(){
+  window.location.href = "index.php";
+
+} 

@@ -49,7 +49,6 @@
     cursor: pointer;
   }
   .container-profil {
-    height: 222px;
     width: 396px;
     background-color: #fff;
     margin: 28px auto;
@@ -72,16 +71,20 @@
     justify-content: right;
     color: #c30000;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 750;
     /* letter-spacing: 0.9px; */
     
   }
-  .kelola p{
+  .kelola p, .kelola-bmi p{
     cursor: pointer;
+  }
+  .kelola p:hover, .kelola-bmi p:hover{
+    color: #254e24;
   }
   
   .profil-lingkaran-nama {
     display: flex;
+    padding: 18px 0px 0px 0px;
   }
   .profil-circle {
     width: 60px;
@@ -99,6 +102,17 @@
     font-size: 18px;
     font-weight: 400;
   }
+  .logo-umur, .logo-bb, .logo-tb{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content:center;
+  }
+.logo-umur img, .logo-bb img , .logo-tb img{
+  width: 28px ;
+  height: 22px
+}
   .container-umur-bb-tb {
     display: flex;
     gap: 56px;
@@ -108,6 +122,8 @@
     width: 396px;
     height: 96px;
     justify-content: center;
+    text-align: center;
+    color: #254e24;
   }
   .h1-umur {
     color: #254e24;
@@ -139,9 +155,7 @@
     padding: 19px 15px 0 326px;
     
   }
-  .kelola-bmi p{
-    cursor: pointer;
-  }
+
   .weight-scale {
     width: 54.45px;
     height: 55px;
@@ -156,7 +170,7 @@
     display: flex;
     align-items: center;
     width: 396px;
-    padding: 18px 241px 0 23px;
+    padding: 18px 241px 20px 23px;
   }
   .indeks-keterangan {
     display: flex;
@@ -192,12 +206,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
   }
   .bb-target {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
   }
   .bb-skrg-trgt {
     color: #254e24;

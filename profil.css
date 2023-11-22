@@ -14,6 +14,16 @@ nav {
   height: 58px;
 }
 
+.login-login{
+  /* margin-left: auto; */
+  color: #fff;
+  font-size: 20px;
+  font-weight: 750;
+  border-radius: 15px;
+  background: #c30000;
+  padding: 11px 24px 12px 24px;
+}
+
 .Isi-Judul{
   text-align: left;
   padding: 16px 23px;

@@ -1,14 +1,30 @@
 <?php
+// Koneksi ke database
+include 'koneksi.php';
+
+// Mulai sesi
 session_start();
 
-// Periksa apakah session username sudah ada
-if (!isset($_SESSION['username'])) {
-    // Jika tidak ada, arahkan ke halaman home tanpa user
-    header("Location: index.html");
-    exit();
+// Cek apakah pengguna sudah login
+if (isset($_SESSION['user_id'])) {
+    $userId = $_SESSION['user_id'];
+
+    // Mendapatkan nilai dataUser dari database
+    $sqldatauser = "SELECT BMI FROM tb_datauser WHERE user_id = $userId";
+    $resultdatauser= $conn->query($sqldatauser);
+
+    if ($resultdatauser->num_rows > 0) {
+        $rowdatauser = $resultdatauser->fetch_assoc();
+        $BMI = number_format($rowdatauser["BMI"], 1); // Display only one digit after the decimal point
+    } else {
+        $BMI = "0";
+    }
+} else {
+    // Jika pengguna belum login, lakukan tindakan sesuai kebutuhan
+    $username = "Guest";
+    $BMI = "0";
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +56,7 @@ if (!isset($_SESSION['username'])) {
     <section class="sec2">
         <div class="sec2-child">
           <div class="bmi-judul">BMI</div>
-          <div class="isi">...</div>
+          <div class="isi"><?php echo $BMI; ?></div>
         </div>
         <div class="sec2-child">
           <div class="kalorimaksperday-judul">Kalori Maks/hari</div>

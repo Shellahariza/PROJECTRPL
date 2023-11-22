@@ -102,6 +102,11 @@ main {
 .kotak-checklist.checked{
   background-color: #254e24;
 }
+.kotak-checklist input{
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
 .menu-judul{
   color: #254e24 !important;
   font-size: 25px;

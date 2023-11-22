@@ -6,5 +6,5 @@ document.addEventListener("DOMContentLoaded", function () {
             document.body.insertAdjacentHTML("afterbegin", navigasiHTML);
         }
     };
-    xhr.open("GET", "navigasi.html", true);
+    xhr.open("GET", "navigasi.php", true);
     xhr.send();});

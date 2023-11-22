@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($conn->query($insertQuery) === TRUE) {
             // Registrasi berhasil
-            echo '<script>alert("Registrasi berhasil"); window.location.href = "index.html";</script>';
+            echo '<script>alert("Registrasi berhasil"); window.location.href = "index.php";</script>';
         } else {
             echo "Error: " . $insertQuery . "<br>" . $conn->error;
         }
@@ -39,3 +39,48 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // Menutup koneksi database
 $conn->close();
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="registrasi.css">
+    <script src="scriptlogin.js"></script>
+</head>
+<body>
+    <main>
+        <div class="kotakbesar">
+        <div class="registrasi-silang" >
+            <img src="img/LogoSilang.png" alt="" onclick="klikSilangRegistrasi()">
+        </div>
+            <div class="sec1">
+                <p>REGISTRASI</p>
+            </div>
+            <div class="form">
+                <form action="registrasi.php" method="post">
+                    <div class="inputan1">
+                        <div class="icon-user-wrapper"> 
+                            <img src="img/LogoUserLogin.png" alt="">
+                        </div>
+                        <div>
+                            <input type="text" name="username" placeholder="Username" required>
+                        </div>
+                </div>           
+                <div class="inputan2">
+                    <div class="icon-user-wrapper"> 
+                        <img src="img/LogoPasswordLogin.png" alt="">
+                    </div>
+                    <div>
+                        <input type="password" name="password" placeholder="Password" required>
+                    </div>
+                </div>
+                <div class="registrasi-button">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>

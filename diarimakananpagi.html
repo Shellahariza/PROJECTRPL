@@ -13,6 +13,7 @@
     <script src="scriptDiariMakanan.js"></script>
 </head>
 <body>
+    <form id="foodForm" action="datamakanan.php" method="post">
   <script src="navigasi.js"></script>  
   <main>
    <section class="kotakkiri">
@@ -21,10 +22,12 @@
           <img src="img/LogoPagi.png" alt="pagi" class="icon-pagi">
           <div class="sarapan-pagi">Sarapan Pagi</div>  
       </div>
+      
       <div class="kotak-kiri-item">
        
       </div>
     </section>
+    
     <section class="kotakkanan">
       <div class="kotakkanan-child">
         <img src="img/panah.png" alt="panah" class="panah-atas">
@@ -32,54 +35,53 @@
             <div class="kotak-menu">
                 <div class="menu-checklist-deskripsi">
                     <div class="menu-checklist">
+                        <div class="menu-judul">Nasi Goreng</div>
+                            <input type="checkbox" name="foods[]" value="Nasi Goreng" class="kotak-checklist">
+                        </div>
+                    <div class="menu-deskripsi">1 Potong AKG 8% - 300 Kkal</div>
+                </div>
+            </div>
+            <div class="kotak-menu">
+                <div class="menu-checklist-deskripsi">
+                    <div class="menu-checklist">
                         <div class="menu-judul">Ayam Bakar</div>
-                        <div class="kotak-checklist"></div>
+                        <input type="checkbox" name="foods[]" value="Ayam Bakar" class="kotak-checklist">
                     </div>
-                    <div class="menu-deskripsi">1 Potong AKG 8% - 167 Kkal</div>
+                    <div class="menu-deskripsi">1 Mangkok AKG 12% - 250 Kkal</div>
                 </div>
             </div>
             <div class="kotak-menu">
                 <div class="menu-checklist-deskripsi">
                     <div class="menu-checklist">
-                        <div class="menu-judul">Nasi Putih</div>
-                        <div class="kotak-checklist"></div>
+                        <div class="menu-judul">Sayur Asem</div>
+                        <input type="checkbox" name="foods[]" value="Sayur Asem" class="kotak-checklist">
                     </div>
-                    <div class="menu-deskripsi">1 Mangkok AKG 12% - 242 Kkal</div>
+                    <div class="menu-deskripsi">1 Mangkuk AKG 7% - 100 Kkal</div>
                 </div>
             </div>
             <div class="kotak-menu">
                 <div class="menu-checklist-deskripsi">
                     <div class="menu-checklist">
-                        <div class="menu-judul">Es Krim (Mixue)</div>
-                        <div class="kotak-checklist"></div>
+                        <div class="menu-judul">Mie Goreng</div>
+                        <input type="checkbox" name="foods[]" value="Mie Goreng" class="kotak-checklist">
                     </div>
-                    <div class="menu-deskripsi">1 Mangkuk AKG 7% - 140 Kkal</div>
-                </div>
-            </div>
-            <div class="kotak-menu">
-                <div class="menu-checklist-deskripsi">
-                    <div class="menu-checklist">
-                        <div class="menu-judul">Bubur Nasi</div>
-                        <div class="kotak-checklist"></div>
-                    </div>
-                    <div class="menu-deskripsi">1 Mangkuk 72 Kkal</div>
+                    <div class="menu-deskripsi">1 Mangkuk 350 Kkal</div>
                 </div>
             </div>
             <div class="kotak-menu">
               <div class="menu-checklist-deskripsi">
                   <div class="menu-checklist">
                       <div class="menu-judul">Bubur Nasi</div>
-                      <div class="kotak-checklist"></div>
+                      <input type="checkbox" name="foods[]" value="Ikan Bagar" class="kotak-checklist">
                   </div>
-                  <div class="menu-deskripsi">1 Mangkuk 72 Kkal</div>
+                  <div class="menu-deskripsi">1 Mangkuk 200 Kkal</div>
               </div>
           </div>
         </div>
         <img src="img/panah bawah.png" alt="panah" class="panah-bawah">
       </div>
     </section>
+    </form>
   </main>
-
-  </body>
 </body>
 </html>

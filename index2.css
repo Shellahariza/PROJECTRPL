@@ -72,10 +72,12 @@ main{
 .sec2{
   display: flex;
   flex-direction: row;
-
   justify-content: left;
+  align-items: center;
+  margin-bottom: 27px;
 }
 .sec2-child{
+  gap: 10px;
   width: 200px;
   height: 170px;
   background-color: #254E24;

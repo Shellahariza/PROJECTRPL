@@ -9,11 +9,12 @@ body{
     justify-content: center;
     font-family: "Lao Muang Don-Regular", Helvetica;
     font-weight: 400;
+    background-color: #254E24;
 }
 
 .kotakbesar{
     background-color: #F1F5DC;
-    padding: 29px 47px 76px 47px;
+    padding: 76px 47px 76px 47px;
     border-radius: 10px;
     width: 594px;
 }
@@ -33,7 +34,14 @@ body{
 .inputan2{
     margin-bottom: 11px;
 }
+.registrasi-silang{
+    display: flex;
+    justify-content: right;
 
+}
+.registrasi-silang img{
+    cursor: pointer;
+}
 .icon-user-wrapper{
     background-image: url(img/SetengahLingkaran.png);
     background-size: 100% 100%;
@@ -64,7 +72,7 @@ input:focus{
 .sec1{
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 1000;
     color: #254E24;
 }
@@ -72,6 +80,7 @@ input:focus{
 .form input[type="submit"] {
     text-decoration: none;
     background-color: #77AD59;
+
     padding: 15px 30px;
     border: none;
     border-radius: 20px;
@@ -82,8 +91,20 @@ input:focus{
     stroke: 1px #FFFFFF;
     cursor: pointer;
 }
-
+.registrasi-button {
+    display: flex;
+    justify-content: right;
+}
 /* Add hover effect */
 .form input[type="submit"]:hover {
     background-color: #254E24;
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+
 }

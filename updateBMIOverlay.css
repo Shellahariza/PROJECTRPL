@@ -65,22 +65,24 @@ display: none;
     margin-bottom: 5px;
 }
 
-.overlay-containerBMI .form input{
-    border: 1px solid #254E24;
+.overlay-containerBMI .input12 input{
+    /* border: 1px solid #254E24; */
     text-decoration: none;
     background-color:transparent;
     padding: 19px 23px;
     font-size: 25px;
     color: #254E24;
-    width: 142px;
+    width: 155px;
+    text-align: center;
 }   
-.overlay-containerBMI input:focus{
+.overlay-containerBMI .input12 input:focus{
     outline: none;
 }
-.overlay-containerBMI .form input::placeholder {
+.overlay-containerBMI .input12  input::placeholder {
     color: #254E24; 
     opacity: 50%;
     font-size: 20px;
+    text-align: center;
 }
 .overlay-containerBMI .button {
     display: flex;
@@ -88,17 +90,20 @@ display: none;
     margin-right: 90px;
     
 }
-.overlay-containerBMI .button button{
-
+.overlay-containerBMI .button{
+    justify-content: right;
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+    /* width: 106px; */
+    height: 46px;
+}
+.overlay-containerBMI .button input{
     background-color: #C30000;
     color: #fff;
     border: none;
     border-radius: 20px;
-    font-weight: 500;
-    font-size: 25px;
-    cursor: pointer;
     width: 106px;
-    height: 46px;
 }
 .overlay-containerBMI .inputan1 div, .overlay-containerBMI .inputan2 div{
     display: flex;
@@ -108,7 +113,7 @@ display: none;
 .overlay-containerBMI .inputan1 p, .overlay-containerBMI .inputan2 p{
     padding-left: 33px;
 }
-.overlay-containerBMI .button button:hover{
+.overlay-containerBMI .button input:hover{
 
     background-color: #77AD59;
 }

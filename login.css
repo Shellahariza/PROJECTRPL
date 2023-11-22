@@ -24,6 +24,7 @@ display: none;
     background: rgba(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 .kotakbesar{
     align-items: center;    
@@ -32,10 +33,61 @@ display: none;
     border-radius: 10px;
     width: 594px;
 }
+.notifikasi{
+    display: none;
+}
+.notifikasi.active{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    animation: fadeInOut 1.5s forwards; /* Animasi tampil selama 3 detik */
+
+    /* display: none; */
+}
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+.notifikasi-kotak{
+    background-color: #c30000;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 41px;
+    border-radius: 10px;
+    width: 500px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.notifikasi-kotak img{
+    height: 40px;
+}
 .silang{
     display: flex;
     justify-content: right;
-
+    
 }
 .silang img{
     cursor: pointer;
@@ -83,7 +135,7 @@ input:focus{
 .sec1{
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 1000;
     color: #254E24;
 }
